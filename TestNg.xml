@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Functional Suite" verbose="1">
+    <test name="Smoke Tests">
+       
+        <classes>
+            <class name="Wipro.TestNG.labsession16august_Q1"/>
+            <class name="Wipro.TestNG.MultipleTestCases"/>
+            
+        </classes>
+    </test>
+</suite>
