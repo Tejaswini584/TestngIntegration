@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Functional_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Functional Suite</span>
+              <span class="suite-name border-passed">Functional Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Functional_Suite" class="hide-methods failed suite-Functional_Suite"> (hide)</a> <!-- hide-methods failed suite-Functional_Suite -->
-                      <a href="#" panel-name="suite-Functional_Suite" class="show-methods failed suite-Functional_Suite"> (show)</a> <!-- show-methods failed suite-Functional_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Functional_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Functional_Suite" title="Wipro.TestNG.MultipleTestCases" class="method navigator-link" hash-for-method="testdragdrop">testdragdrop</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Functional_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -130,21 +116,6 @@
                         <a href="#" panel-name="suite-Functional_Suite" title="Wipro.TestNG.labsession16august_Q1" class="method navigator-link" hash-for-method="paymentTest">paymentTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Functional_Suite" title="Wipro.TestNG.MultipleTestCases" class="method navigator-link" hash-for-method="radiobuttons">radiobuttons</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Functional_Suite" title="Wipro.TestNG.MultipleTestCases" class="method navigator-link" hash-for-method="testalerts">testalerts</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Functional_Suite" title="Wipro.TestNG.MultipleTestCases" class="method navigator-link" hash-for-method="testcheckbox">testcheckbox</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Functional_Suite -->
                   </li>
                 </ul>
@@ -157,41 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Functional_Suite" class="panel Functional_Suite">
-          <div class="suite-Functional_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Wipro.TestNG.MultipleTestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testdragdrop">
-                  </a> <!-- testdragdrop -->
-                  <span class="method-name">testdragdrop</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error msedgedriver must exist: C:\Users\Harsha Patil\Desktop\Corporate Trainings\IIHT\Screen shots\edgedriver_win64\msedgedriver.exe
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
-	at Wipro.TestNG.MultipleTestCases.testdragdrop(MultipleTestCases.java:133)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\Harsha Patil\Desktop\Corporate Trainings\IIHT\Screen shots\edgedriver_win64\msedgedriver.exe
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:475)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)
-	... 39 more
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Functional_Suite-class-failed -->
           <div class="suite-Functional_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -221,35 +157,6 @@ Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\Ha
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Functional_Suite-class-passed -->
-          <div class="suite-Functional_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Wipro.TestNG.MultipleTestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="radiobuttons">
-                  </a> <!-- radiobuttons -->
-                  <span class="method-name">radiobuttons</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testalerts">
-                  </a> <!-- testalerts -->
-                  <span class="method-name">testalerts</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testcheckbox">
-                  </a> <!-- testcheckbox -->
-                  <span class="method-name">testcheckbox</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Functional_Suite-class-passed -->
         </div> <!-- panel Functional_Suite -->
         <div panel-name="test-xml-Functional_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -263,7 +170,6 @@ Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\Ha
   &lt;test thread-count=&quot;5&quot; name=&quot;Smoke Tests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Wipro.TestNG.labsession16august_Q1&quot;/&gt;
-      &lt;class name=&quot;Wipro.TestNG.MultipleTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Smoke Tests --&gt;
 &lt;/suite&gt; &lt;!-- Functional Suite --&gt;
@@ -277,7 +183,7 @@ Caused by: java.lang.IllegalStateException: msedgedriver must exist: C:\Users\Ha
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Smoke Tests (2 classes)</span>
+                <span class="test-name">Smoke Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -327,40 +233,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testalerts')
-data.setCell(0, 2, 'Wipro.TestNG.MultipleTestCases')
-data.setCell(0, 3, 21085);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'Wipro.TestNG.labsession16august_Q1')
+data.setCell(0, 3, 4);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'radiobuttons')
-data.setCell(1, 2, 'Wipro.TestNG.MultipleTestCases')
-data.setCell(1, 3, 7263);
+data.setCell(1, 1, 'logoutTest')
+data.setCell(1, 2, 'Wipro.TestNG.labsession16august_Q1')
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testcheckbox')
-data.setCell(2, 2, 'Wipro.TestNG.MultipleTestCases')
-data.setCell(2, 3, 6259);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testdragdrop')
-data.setCell(3, 2, 'Wipro.TestNG.MultipleTestCases')
-data.setCell(3, 3, 37);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'Wipro.TestNG.labsession16august_Q1')
-data.setCell(4, 3, 4);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'paymentTest')
-data.setCell(5, 2, 'Wipro.TestNG.labsession16august_Q1')
-data.setCell(5, 3, 1);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'logoutTest')
-data.setCell(6, 2, 'Wipro.TestNG.labsession16august_Q1')
-data.setCell(6, 3, 0);
+data.setCell(2, 1, 'paymentTest')
+data.setCell(2, 2, 'Wipro.TestNG.labsession16august_Q1')
+data.setCell(2, 3, 0);
 window.suiteTableData['Functional_Suite']= { tableData: data, tableDiv: 'times-div-Functional_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 5 ms</span>
               <div id="times-div-Functional_Suite">
               </div> <!-- times-div-Functional_Suite -->
             </div> <!-- times-div -->
@@ -397,28 +287,7 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">paymentTest</span>
-                <span class="method-start">10 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Wipro.TestNG.MultipleTestCases</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">radiobuttons</span>
                 <span class="method-start">12 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testdragdrop</span>
-                <span class="method-start">7277 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testcheckbox</span>
-                <span class="method-start">7330 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testalerts</span>
-                <span class="method-start">13591 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
