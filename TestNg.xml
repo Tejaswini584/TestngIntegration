@@ -3,7 +3,7 @@
     <test name="Smoke Tests">
        
         <classes>
-            <class name="Wipro.TestNG.labsession16august_Q1"/>
+            
             <class name="Wipro.TestNG.MultipleTestCases"/>
             
         </classes>
