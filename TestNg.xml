@@ -3,13 +3,12 @@
     <test name="Smoke Tests">
        
         <classes>
-<<<<<<< HEAD
+
             
-            <class name="Wipro.TestNG.MultipleTestCases"/>
-=======
+
             <class name="Wipro.TestNG.TESTCASE"/>
            
->>>>>>> d7bcc6d (new files)
+
             
         </classes>
     </test>
